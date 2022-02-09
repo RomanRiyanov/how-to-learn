@@ -1,3 +1,6 @@
+body, h1, h2, h3, h4, p, a {
+  margin: 0;
+}
 
 .page {
   min-width: 1100px;
@@ -10,7 +13,7 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
   display: flex;
   flex-direction: column;
-  position: absolute;
+  /*здесь было position: absolute, и весь отступ оставался с правого края*/
 }
 
 .header {
@@ -46,7 +49,7 @@
   width: 730px;
   line-height: 96px;
   font-size: 102px;
-  font-style: normal;
+  font-weight: bold;
 }
 
 .title_place_header {
@@ -65,7 +68,7 @@
   left: 64px;
 }
 
-.subtitle_link_header {
+.link_header {
   text-decoration: none;
 }
 
@@ -80,7 +83,6 @@
   width: 765px;
   height: 608px;
 }
-
 
 .header__square-pic {
   position: absolute;
@@ -100,7 +102,7 @@
 
 .content {
  position: relative;
- width: 100%;
+ width: 100wh;
 
 }
 
@@ -148,6 +150,124 @@
 .paragraph {
   font-weight: bold;
   }
+
+
+
+
+
+
+
+
+
+.digits {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.section-title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  width: 60%;
+  text-align: center;
+}
+
+.section-subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-style: none; /*проверить жирное начертание или нет*/
+  width: 60%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin-bottom: 100px;  /*убрать отступы из блока*/
+}
+
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.feynman {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f2f2;
+  background-image: url(../images/feynman.png);
+  background-position: bottom 0px left 0px;
+  background-repeat: no-repeat;
+  background-size: 867px 637px;
+}
+
+.feynman__title {
+  width: 648px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  line-height: 1.15;
+  font-size: 60px;  /*от балды размер шрифта написал*/
+  font-weight: bold;
+  text-align: center;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.feynman__link {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  text-decoration: none;
+  color: #2f80ed;
+  line-height: 51px;
+  font-size: 36px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

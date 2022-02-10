@@ -27,7 +27,7 @@
 
 .logo_place_header {
   position: absolute;
-  left: 64px; ;
+  left: 64px;
   top: 30px;
   background-image: url(../images/logo_place_header.svg);
   background-size: cover;
@@ -177,7 +177,7 @@
 .section-subtitle {
   line-height: 34px;
   font-size: 24px;
-  font-weight: 400; 
+  font-weight: 400;
   width: 60%;
   text-align: center;
 }
@@ -246,7 +246,7 @@
   width: 648px;
   box-sizing: border-box;
   line-height: 1.15;
-  font-size: 120px;  
+  font-size: 120px;
   font-weight: bold;
   text-align: center;
   margin: 100px auto 70px;

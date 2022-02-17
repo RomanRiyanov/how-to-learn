@@ -41,9 +41,6 @@
   width: 730px;
   z-index: 2;
   margin: 0px;
-}
-
-.header__title_margin {
   margin-left: 64px;
 }
 
@@ -54,9 +51,6 @@
   font-size: 18px;
   z-index: 2;
   margin: 0px;
-}
-
-.header__subtitle_position {
   bottom: 30px;
   left: 64px;
 }
@@ -346,9 +340,6 @@
   font-size: 18px;
   margin: 0 0 16px;
   padding: 0px;
-}
-
-.footer__column-links_list_default {
   list-style: none;
 }
 
